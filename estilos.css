@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+header {
+  background: #0b1838;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #f68121;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: auto;
+  background: orange;
+  padding: 20px;
+}
