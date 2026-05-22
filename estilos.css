@@ -1,6 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 body {
-  font-family: Arial;
   background: #f4f4f4;
+  color: #333;
 }
 
 header {
@@ -11,25 +18,78 @@ header {
 }
 
 nav {
-  background: #f68121;
-  padding: 10px;
+  background: #1c2f6e;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
-  gap: 20px;
   list-style: none;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
+nav ul li {
+  margin: 10px;
 }
 
-.formulario {
-  max-width: 400px;
-  margin: auto;
-  background: orange;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
   padding: 20px;
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0b1838;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background: #0b1838;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1c2f6e;
+}
+
+footer {
+  background: #0b1838;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
